@@ -36,7 +36,7 @@ namespace OOP.Odev {
             set { alan = Math.Abs(value); }
         }
 
-        public override string ToString()
+        public virtual string ToString()
         {
             return $"Semt: {Semt}, Kat No: {KatNo}, Oda Sayısı: {OdaSayisi}, Alan: {Alan} m²";
         }
